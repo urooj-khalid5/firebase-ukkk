@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <h1 class="container" style="text-align: center;">Login Form</h1>
+    <form>
+        <div class="imgcontainer">
+            <img src="data:image/png;base64,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"
+                alt="Avatar" class="avatar">
+        </div>
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input id="name" type="text" placeholder="Enter Username" name="uname">
+            <label for="psw"><b>Password</b></label>
+            <input id="password" type="password" placeholder="Enter Password" name="psw">
+        </div>
+    </form>
+    <div class="container">
+        <button onclick="signup()">Signup</button>
+        <button onclick="logIn()">Login</button>
+    </div>
+
+    <div class="container">
+        <span class="psw">Forgot <a href="#">password?</a></span>
+        <button onclick="readUserData()">Get Users</button>
+        <button onclick="Update()">Update data</button>
+        <button onclick="Delete()">Delete data</button>
+    </div>
+
+    <!-- Add Firebase JavaScript SDK -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+
+    <script type="text/javascript">
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyAnDiqmIqAu_dGcKH4mMED4x-osC_uF9tU",
+            authDomain: "car-sharing-ur.firebaseapp.com",
+            projectId: "car-sharing-ur",
+            storageBucket: "car-sharing-ur.appspot.com",
+            messagingSenderId: "485344754616",
+            appId: "1:485344754616:web:a9467bd79014d15bddad4d",
+            measurementId: "G-D39HGL4GPH"
+        };
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        // Initialize Realtime Database and get a reference to the service
+        const database = firebase.database();
+
+        function signup() {
+            let email = document.getElementById("name").value;
+            let password = document.getElementById("password").value;
+            firebase.auth().createUserWithEmailAndPassword(email, password)
+                .then((userCredential) => {
+                    // Signed in 
+                    var user = userCredential.user;
+                    writeUserData(user.uid, email, password);
+                    console.log("user created successfully.... \n", user)
+
+                    // ...
+                })
+                .catch((error) => {
+                    var errorCode = error.code;
+                    var errorMessage = error.message;
+                    console.error("Login error:", errorCode, errorMessage);
+                });
+        }
+
+        function logIn() {
+            let email = document.getElementById("name").value;
+            let password = document.getElementById("password").value;
+
+            firebase.auth().signInWithEmailAndPassword(email, password)
+                .then((userCredential) => {
+                    var user = userCredential.user;
+                    console.log('User signed in successfully... \n', user);
+
+                })
+                .catch((error) => {
+                    var errorCode = error.code;
+                    var errorMessage = error.message;
+                    console.log("Login error:", errorCode, errorMessage);
+                });
+        }
+
+        function writeUserData(userId, email, password) {
+            firebase.database().ref('users/' + userId).set({
+                userId: userId,
+                email: email,
+                password: password
+            });
+        }
+        function readUserData() {
+            const dbRef = firebase.database().ref();
+            dbRef.child("users").get().then((snapshot) => {
+                if (snapshot.exists()) {
+                    console.log(snapshot.val());
+                } else {
+                    console.log("No data available");
+                }
+            }).catch((error) => {
+                console.error(error);
+            });
+        }
+
+        function getUser(userId) {
+            const dbRef = firebase.database().ref();
+            dbRef.child("users").child(userId).get().then((snapshot) => {
+                if (snapshot.exists()) {
+                    console.log(snapshot.val());
+                } else {
+                    console.log("No data available");
+                }
+            }).catch((error) => {
+                console.error(error);
+            });
+        }
+        function Update() {
+            firebase.database().ref('users/' + userId).set({
+                username: name,
+                email: email,
+                profile_picture: imageUrl
+            }, (error) => {
+                if (error) {
+                    // The write failed...
+                } else {
+                    // Data saved successfully!
+                }
+            });
+
+        }
+
+    </script>
+</body>
+
+</html>
